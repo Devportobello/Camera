@@ -1142,7 +1142,7 @@
 					$(imgLoaded2).attr('data-alignment',allAlign[slideI+1]).attr('data-portrait',allPor[slideI+1]);
 					$(imgLoaded2).attr('width',wT);
 					$(imgLoaded2).attr('height',hT);
-					$(imgLoaded2).attr('alt',allAlt[slideI]+1);
+					$(imgLoaded2).attr('alt',allAlt[slideI+1]);
 					resizeImage();
 				};
 			}
